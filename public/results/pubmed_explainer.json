@@ -1,0 +1,3362 @@
+[
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0005361183,
+    "EdgeImportance": 0.0019506998
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.0005354321,
+    "EdgeImportance": 0.0019499572
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0005390348,
+    "EdgeImportance": 0.0019569431
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0005368445,
+    "EdgeImportance": 0.0019524888
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0005363406,
+    "EdgeImportance": 0.0019509723
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.0005388745,
+    "EdgeImportance": 0.0019567257
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0005341623,
+    "EdgeImportance": 0.0019482705
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0005136934,
+    "EdgeImportance": 0.0019201324
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.0005142435,
+    "EdgeImportance": 0.0019228322
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0005135355,
+    "EdgeImportance": 0.0019242244
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0005132457,
+    "EdgeImportance": 0.0019192541
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0005135583,
+    "EdgeImportance": 0.0019201064
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.0005138712,
+    "EdgeImportance": 0.0019216698
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0005135148,
+    "EdgeImportance": 0.0019215596
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0005463381,
+    "EdgeImportance": 0.0019849064
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.000545669,
+    "EdgeImportance": 0.0019828077
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0005390028,
+    "EdgeImportance": 0.0019715644
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0005354645,
+    "EdgeImportance": 0.0019706705
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0005390941,
+    "EdgeImportance": 0.0019825784
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.0005387647,
+    "EdgeImportance": 0.0019632853
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0005316739,
+    "EdgeImportance": 0.0019543514
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0093419224,
+    "EdgeImportance": 0.0660093529
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.0093348281,
+    "EdgeImportance": 0.065979051
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0093341097,
+    "EdgeImportance": 0.0660012111
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0093293135,
+    "EdgeImportance": 0.0659902731
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0093631292,
+    "EdgeImportance": 0.0659846688
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.0093651106,
+    "EdgeImportance": 0.0660156383
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0093257944,
+    "EdgeImportance": 0.0659870402
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0003418998,
+    "EdgeImportance": 0.0013169046
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.0003869525,
+    "EdgeImportance": 0.0015587715
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0005200009,
+    "EdgeImportance": 0.0019590391
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0003648048,
+    "EdgeImportance": 0.0014154425
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0003583037,
+    "EdgeImportance": 0.0013989085
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.0003702798,
+    "EdgeImportance": 0.0014316628
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0002998924,
+    "EdgeImportance": 0.0011326447
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 0,
+    "NodeImportance": 0.0005132905,
+    "EdgeImportance": 0.001920419
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 0,
+    "NodeImportance": 0.0005124084,
+    "EdgeImportance": 0.0019150925
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 0,
+    "NodeImportance": 0.0005136581,
+    "EdgeImportance": 0.0019253479
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 0,
+    "NodeImportance": 0.0005134335,
+    "EdgeImportance": 0.0019212914
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 0,
+    "NodeImportance": 0.0005134786,
+    "EdgeImportance": 0.0019211547
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 0,
+    "NodeImportance": 0.000513144,
+    "EdgeImportance": 0.0019187064
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 0,
+    "NodeImportance": 0.0005140383,
+    "EdgeImportance": 0.0019214695
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0005361151,
+    "EdgeImportance": 0.0019511236
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.0005356855,
+    "EdgeImportance": 0.0019500278
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.0005406828,
+    "EdgeImportance": 0.0019616608
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0005379627,
+    "EdgeImportance": 0.0019561381
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0005389503,
+    "EdgeImportance": 0.0019542714
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0005360748,
+    "EdgeImportance": 0.0019501393
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.000535564,
+    "EdgeImportance": 0.0019497128
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0005133824,
+    "EdgeImportance": 0.0019200106
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.0005131935,
+    "EdgeImportance": 0.0019202886
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.0005124454,
+    "EdgeImportance": 0.0019234872
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0005133994,
+    "EdgeImportance": 0.0019212495
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0005131202,
+    "EdgeImportance": 0.001917982
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0005139469,
+    "EdgeImportance": 0.0019211652
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.0005130756,
+    "EdgeImportance": 0.0019191893
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0005411118,
+    "EdgeImportance": 0.0019860883
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.000541835,
+    "EdgeImportance": 0.001966165
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.0005383462,
+    "EdgeImportance": 0.0019780688
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0005281649,
+    "EdgeImportance": 0.0019520296
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0005214861,
+    "EdgeImportance": 0.0019340699
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0005393195,
+    "EdgeImportance": 0.0019738138
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.0005412936,
+    "EdgeImportance": 0.0019673067
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0093642974,
+    "EdgeImportance": 0.0660002221
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.009335528,
+    "EdgeImportance": 0.0659755005
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.009332117,
+    "EdgeImportance": 0.0659774941
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0093376725,
+    "EdgeImportance": 0.0659943337
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0093225291,
+    "EdgeImportance": 0.0660059924
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0093250745,
+    "EdgeImportance": 0.0659817612
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.0093246358,
+    "EdgeImportance": 0.0659735945
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0004587112,
+    "EdgeImportance": 0.0017757533
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.0004463026,
+    "EdgeImportance": 0.0017952615
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.0005101494,
+    "EdgeImportance": 0.0019318325
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0003748575,
+    "EdgeImportance": 0.0014583289
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0003601442,
+    "EdgeImportance": 0.0014056909
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0003597139,
+    "EdgeImportance": 0.0014010247
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.0003606866,
+    "EdgeImportance": 0.0014137806
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 1,
+    "NodeImportance": 0.0005147078,
+    "EdgeImportance": 0.0019224924
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 1,
+    "NodeImportance": 0.0005140388,
+    "EdgeImportance": 0.0019225429
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 1,
+    "NodeImportance": 0.0005135596,
+    "EdgeImportance": 0.0019244711
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 1,
+    "NodeImportance": 0.0005133866,
+    "EdgeImportance": 0.0019174044
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 1,
+    "NodeImportance": 0.0005126281,
+    "EdgeImportance": 0.0019150868
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 1,
+    "NodeImportance": 0.0005140989,
+    "EdgeImportance": 0.0019204616
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 1,
+    "NodeImportance": 0.0005140502,
+    "EdgeImportance": 0.0019217791
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0005390533,
+    "EdgeImportance": 0.0019558825
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0005392079,
+    "EdgeImportance": 0.0019557575
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0005386917,
+    "EdgeImportance": 0.0019597109
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.0005359418,
+    "EdgeImportance": 0.0019504387
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0005391909,
+    "EdgeImportance": 0.0019569555
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.0005357063,
+    "EdgeImportance": 0.0019516697
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.0005384205,
+    "EdgeImportance": 0.0019555389
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0005133157,
+    "EdgeImportance": 0.0019189762
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0005132032,
+    "EdgeImportance": 0.0019191557
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0005137663,
+    "EdgeImportance": 0.0019238533
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.0005121144,
+    "EdgeImportance": 0.0019167227
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0005141382,
+    "EdgeImportance": 0.0019221336
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.0005144224,
+    "EdgeImportance": 0.0019227445
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.0005135432,
+    "EdgeImportance": 0.0019207411
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0005385203,
+    "EdgeImportance": 0.001973675
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0005431007,
+    "EdgeImportance": 0.0019703128
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0005412888,
+    "EdgeImportance": 0.0019770693
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.0005436237,
+    "EdgeImportance": 0.0019721683
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0005347791,
+    "EdgeImportance": 0.0019687464
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.000544452,
+    "EdgeImportance": 0.0019790712
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.0005417303,
+    "EdgeImportance": 0.0019683089
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0093957329,
+    "EdgeImportance": 0.0660126034
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0093537433,
+    "EdgeImportance": 0.0659934147
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0093218586,
+    "EdgeImportance": 0.0659799087
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.009376942,
+    "EdgeImportance": 0.0659747577
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0093769923,
+    "EdgeImportance": 0.0660319608
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.0093908484,
+    "EdgeImportance": 0.0660374703
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.0093360065,
+    "EdgeImportance": 0.0659636565
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0003595264,
+    "EdgeImportance": 0.0014086716
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0003690348,
+    "EdgeImportance": 0.0014651668
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0005136394,
+    "EdgeImportance": 0.0019317991
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.0003353697,
+    "EdgeImportance": 0.0012937745
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0003706651,
+    "EdgeImportance": 0.0014445959
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.0003962802,
+    "EdgeImportance": 0.0014512731
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.0003296849,
+    "EdgeImportance": 0.0012898564
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 2,
+    "NodeImportance": 0.0005147094,
+    "EdgeImportance": 0.0019227793
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 2,
+    "NodeImportance": 0.0005146193,
+    "EdgeImportance": 0.0019213901
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 2,
+    "NodeImportance": 0.0005132722,
+    "EdgeImportance": 0.0019258069
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 2,
+    "NodeImportance": 0.0005128282,
+    "EdgeImportance": 0.0019178998
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 2,
+    "NodeImportance": 0.0005137886,
+    "EdgeImportance": 0.0019211659
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 2,
+    "NodeImportance": 0.0005139358,
+    "EdgeImportance": 0.0019207857
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 2,
+    "NodeImportance": 0.000513075,
+    "EdgeImportance": 0.0019187253
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.0005363124,
+    "EdgeImportance": 0.0019509245
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0005381134,
+    "EdgeImportance": 0.0019552165
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.0005392335,
+    "EdgeImportance": 0.0019609204
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0005362229,
+    "EdgeImportance": 0.0019511718
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0005362402,
+    "EdgeImportance": 0.0019501625
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0005354302,
+    "EdgeImportance": 0.0019488709
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0005371201,
+    "EdgeImportance": 0.0019531242
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.000513438,
+    "EdgeImportance": 0.0019213099
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0005131814,
+    "EdgeImportance": 0.0019203645
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.0005125873,
+    "EdgeImportance": 0.0019224641
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0005139151,
+    "EdgeImportance": 0.0019206824
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0005143256,
+    "EdgeImportance": 0.0019227265
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0005134538,
+    "EdgeImportance": 0.0019183504
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0005133338,
+    "EdgeImportance": 0.0019186223
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.0005408395,
+    "EdgeImportance": 0.0019772818
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0005412882,
+    "EdgeImportance": 0.0019861064
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.000533805,
+    "EdgeImportance": 0.0019655876
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0005425821,
+    "EdgeImportance": 0.0019704326
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0005451021,
+    "EdgeImportance": 0.0019855803
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0005427014,
+    "EdgeImportance": 0.0019705442
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0005440783,
+    "EdgeImportance": 0.0019786308
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.0093179283,
+    "EdgeImportance": 0.0659889589
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0093767949,
+    "EdgeImportance": 0.0659896858
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.0093279595,
+    "EdgeImportance": 0.0660097759
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0093374724,
+    "EdgeImportance": 0.0659684336
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0093872127,
+    "EdgeImportance": 0.0659952956
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0093115755,
+    "EdgeImportance": 0.0659523546
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0093516788,
+    "EdgeImportance": 0.0659757501
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.0003779462,
+    "EdgeImportance": 0.0014727648
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0003761149,
+    "EdgeImportance": 0.001456823
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.0005062599,
+    "EdgeImportance": 0.0018996708
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0003728382,
+    "EdgeImportance": 0.0014638698
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0002691732,
+    "EdgeImportance": 0.0009840624
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0003283682,
+    "EdgeImportance": 0.0012607237
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0003577002,
+    "EdgeImportance": 0.0013442479
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 3,
+    "NodeImportance": 0.0005144757,
+    "EdgeImportance": 0.0019236149
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 3,
+    "NodeImportance": 0.0005140342,
+    "EdgeImportance": 0.0019232372
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 3,
+    "NodeImportance": 0.000513876,
+    "EdgeImportance": 0.0019244949
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 3,
+    "NodeImportance": 0.0005126745,
+    "EdgeImportance": 0.0019176553
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 3,
+    "NodeImportance": 0.0005151149,
+    "EdgeImportance": 0.0019236664
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 3,
+    "NodeImportance": 0.0005126884,
+    "EdgeImportance": 0.0019169936
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 3,
+    "NodeImportance": 0.0005141636,
+    "EdgeImportance": 0.0019234671
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.0005351906,
+    "EdgeImportance": 0.0019501547
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.000536102,
+    "EdgeImportance": 0.0019517265
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0005403687,
+    "EdgeImportance": 0.0019608575
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0005376771,
+    "EdgeImportance": 0.0019521269
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0005363069,
+    "EdgeImportance": 0.0019508056
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0005346802,
+    "EdgeImportance": 0.0019489655
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.0005379644,
+    "EdgeImportance": 0.0019535452
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.0005129584,
+    "EdgeImportance": 0.0019191307
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.0005140828,
+    "EdgeImportance": 0.0019221252
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0005136346,
+    "EdgeImportance": 0.0019242911
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0005139541,
+    "EdgeImportance": 0.0019217978
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0005141679,
+    "EdgeImportance": 0.0019221344
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0005128888,
+    "EdgeImportance": 0.0019189872
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.0005139,
+    "EdgeImportance": 0.0019207124
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.000528621,
+    "EdgeImportance": 0.0019495708
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.0005447084,
+    "EdgeImportance": 0.0019797554
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0005387179,
+    "EdgeImportance": 0.0019705853
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0005452321,
+    "EdgeImportance": 0.0019812814
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0005475818,
+    "EdgeImportance": 0.0019931713
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0005431789,
+    "EdgeImportance": 0.0019755667
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.0005339713,
+    "EdgeImportance": 0.0019589545
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.0093658368,
+    "EdgeImportance": 0.0659882656
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.009358032,
+    "EdgeImportance": 0.0660031587
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0093451744,
+    "EdgeImportance": 0.065995914
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0093785047,
+    "EdgeImportance": 0.0659905158
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0093481121,
+    "EdgeImportance": 0.0659651498
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0093592256,
+    "EdgeImportance": 0.06599434
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.009333411,
+    "EdgeImportance": 0.0659825315
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.0003604556,
+    "EdgeImportance": 0.0014127294
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.0004216901,
+    "EdgeImportance": 0.0015706524
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0005150768,
+    "EdgeImportance": 0.0019572741
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0003719333,
+    "EdgeImportance": 0.0015428197
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0003646152,
+    "EdgeImportance": 0.0014302919
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0004651333,
+    "EdgeImportance": 0.0017684829
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.0003855311,
+    "EdgeImportance": 0.0014612709
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 4,
+    "NodeImportance": 0.0005134025,
+    "EdgeImportance": 0.0019187665
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 4,
+    "NodeImportance": 0.0005137195,
+    "EdgeImportance": 0.0019188403
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 4,
+    "NodeImportance": 0.0005131761,
+    "EdgeImportance": 0.0019246273
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 4,
+    "NodeImportance": 0.0005136566,
+    "EdgeImportance": 0.0019206873
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 4,
+    "NodeImportance": 0.0005137552,
+    "EdgeImportance": 0.0019210063
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 4,
+    "NodeImportance": 0.0005141876,
+    "EdgeImportance": 0.0019225876
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 4,
+    "NodeImportance": 0.0005132714,
+    "EdgeImportance": 0.001921009
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.0005338707,
+    "EdgeImportance": 0.0019494051
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.0005392922,
+    "EdgeImportance": 0.0019556361
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0005398433,
+    "EdgeImportance": 0.0019608549
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0005366883,
+    "EdgeImportance": 0.0019516708
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0005354159,
+    "EdgeImportance": 0.0019517366
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0005342973,
+    "EdgeImportance": 0.0019484538
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.000536795,
+    "EdgeImportance": 0.0019511809
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.00051354,
+    "EdgeImportance": 0.00191977
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.0005140194,
+    "EdgeImportance": 0.0019222508
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0005136859,
+    "EdgeImportance": 0.0019266132
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0005146045,
+    "EdgeImportance": 0.0019222315
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0005136283,
+    "EdgeImportance": 0.0019205187
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0005144701,
+    "EdgeImportance": 0.0019222388
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.0005142251,
+    "EdgeImportance": 0.0019219475
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.0005454335,
+    "EdgeImportance": 0.0019783668
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.0005394355,
+    "EdgeImportance": 0.0019645159
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0005406153,
+    "EdgeImportance": 0.0019750293
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0005400815,
+    "EdgeImportance": 0.0019675711
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0005417637,
+    "EdgeImportance": 0.0019618986
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0005451033,
+    "EdgeImportance": 0.0019845521
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.0005401155,
+    "EdgeImportance": 0.0019642656
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.0093913281,
+    "EdgeImportance": 0.0660083771
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.0093788864,
+    "EdgeImportance": 0.06602114
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0093694399,
+    "EdgeImportance": 0.066008541
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0093240289,
+    "EdgeImportance": 0.0659780933
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0093649276,
+    "EdgeImportance": 0.0659872842
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0093357395,
+    "EdgeImportance": 0.0659794859
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.0093681551,
+    "EdgeImportance": 0.0659767633
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.0003672592,
+    "EdgeImportance": 0.0014478079
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.0003644349,
+    "EdgeImportance": 0.0014186931
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0005044461,
+    "EdgeImportance": 0.001895183
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0004133462,
+    "EdgeImportance": 0.0015957671
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0003627685,
+    "EdgeImportance": 0.00140965
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0003996462,
+    "EdgeImportance": 0.0015862412
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.0003610793,
+    "EdgeImportance": 0.0014208057
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 5,
+    "NodeImportance": 0.0005127988,
+    "EdgeImportance": 0.0019190823
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 5,
+    "NodeImportance": 0.000514137,
+    "EdgeImportance": 0.0019214862
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 5,
+    "NodeImportance": 0.0005145711,
+    "EdgeImportance": 0.0019261462
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 5,
+    "NodeImportance": 0.0005135491,
+    "EdgeImportance": 0.0019212506
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 5,
+    "NodeImportance": 0.0005136231,
+    "EdgeImportance": 0.0019207864
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 5,
+    "NodeImportance": 0.0005138399,
+    "EdgeImportance": 0.0019209644
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 5,
+    "NodeImportance": 0.0005137756,
+    "EdgeImportance": 0.0019204504
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0005360221,
+    "EdgeImportance": 0.0019509346
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0005372914,
+    "EdgeImportance": 0.0019535752
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.0005387658,
+    "EdgeImportance": 0.0019562696
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.0005379074,
+    "EdgeImportance": 0.0019523128
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0005379023,
+    "EdgeImportance": 0.0019577602
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.0005345238,
+    "EdgeImportance": 0.0019490496
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.0005350487,
+    "EdgeImportance": 0.0019485017
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0005126927,
+    "EdgeImportance": 0.0019182158
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0005128266,
+    "EdgeImportance": 0.0019200114
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.000512987,
+    "EdgeImportance": 0.0019223093
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.0005140371,
+    "EdgeImportance": 0.0019220544
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0005131138,
+    "EdgeImportance": 0.0019190619
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.0005132069,
+    "EdgeImportance": 0.0019183234
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.0005140105,
+    "EdgeImportance": 0.0019198911
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0005341384,
+    "EdgeImportance": 0.0019538831
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0005426514,
+    "EdgeImportance": 0.0019682412
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.0005342586,
+    "EdgeImportance": 0.0019665376
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.0005295688,
+    "EdgeImportance": 0.0019514058
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0005322495,
+    "EdgeImportance": 0.0019637081
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.0005277349,
+    "EdgeImportance": 0.0019538598
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.000522698,
+    "EdgeImportance": 0.0019319025
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0093415255,
+    "EdgeImportance": 0.065991872
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0093596415,
+    "EdgeImportance": 0.0660029613
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.0093091972,
+    "EdgeImportance": 0.0659723177
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.0093468809,
+    "EdgeImportance": 0.0659946146
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0093386195,
+    "EdgeImportance": 0.0659580681
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.0093371986,
+    "EdgeImportance": 0.0659867964
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.0093643082,
+    "EdgeImportance": 0.066009564
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0003744138,
+    "EdgeImportance": 0.0014739347
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0004043791,
+    "EdgeImportance": 0.0015969113
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.0005143001,
+    "EdgeImportance": 0.0019340879
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.000365971,
+    "EdgeImportance": 0.001421179
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0003744782,
+    "EdgeImportance": 0.0014540723
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.0004023965,
+    "EdgeImportance": 0.0015660965
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.0002572191,
+    "EdgeImportance": 0.0009492345
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 6,
+    "NodeImportance": 0.0005143296,
+    "EdgeImportance": 0.0019214699
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 6,
+    "NodeImportance": 0.0005138005,
+    "EdgeImportance": 0.001919927
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 6,
+    "NodeImportance": 0.0005126478,
+    "EdgeImportance": 0.0019223394
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 6,
+    "NodeImportance": 0.0005130935,
+    "EdgeImportance": 0.0019196925
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 6,
+    "NodeImportance": 0.0005137718,
+    "EdgeImportance": 0.0019218167
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 6,
+    "NodeImportance": 0.000514432,
+    "EdgeImportance": 0.0019235778
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 6,
+    "NodeImportance": 0.0005141066,
+    "EdgeImportance": 0.0019230384
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.0005382953,
+    "EdgeImportance": 0.0019544147
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.0005351403,
+    "EdgeImportance": 0.0019496152
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.0005382723,
+    "EdgeImportance": 0.0019542854
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0005380259,
+    "EdgeImportance": 0.0019538702
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.0005369212,
+    "EdgeImportance": 0.0019518813
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0005341137,
+    "EdgeImportance": 0.0019483956
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0005372544,
+    "EdgeImportance": 0.0019507553
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.0005133667,
+    "EdgeImportance": 0.0019184562
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.0005137051,
+    "EdgeImportance": 0.0019225608
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.0005131367,
+    "EdgeImportance": 0.0019242352
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0005134542,
+    "EdgeImportance": 0.0019210847
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.0005125285,
+    "EdgeImportance": 0.0019165207
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0005141853,
+    "EdgeImportance": 0.0019226628
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0005142113,
+    "EdgeImportance": 0.0019212047
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.0005439571,
+    "EdgeImportance": 0.0019769061
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.000544581,
+    "EdgeImportance": 0.0019843498
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.0005376172,
+    "EdgeImportance": 0.0019644911
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0005372889,
+    "EdgeImportance": 0.0019757498
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.0005236533,
+    "EdgeImportance": 0.0019379108
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0005428274,
+    "EdgeImportance": 0.0019704578
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0005449844,
+    "EdgeImportance": 0.0019802675
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.009411517,
+    "EdgeImportance": 0.0659890383
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.0093859582,
+    "EdgeImportance": 0.0660054095
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.009357196,
+    "EdgeImportance": 0.0660178659
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0093577421,
+    "EdgeImportance": 0.0659918481
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.009321233,
+    "EdgeImportance": 0.0659993867
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0093533448,
+    "EdgeImportance": 0.0660024622
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0093673512,
+    "EdgeImportance": 0.065983283
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.0003718364,
+    "EdgeImportance": 0.001442334
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.0003550864,
+    "EdgeImportance": 0.0014530943
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.0004824627,
+    "EdgeImportance": 0.0018008814
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0003474265,
+    "EdgeImportance": 0.0013382194
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.0004034627,
+    "EdgeImportance": 0.0015740482
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0005272784,
+    "EdgeImportance": 0.0019657241
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0003603371,
+    "EdgeImportance": 0.0014040067
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 7,
+    "NodeImportance": 0.0005138791,
+    "EdgeImportance": 0.0019203733
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 7,
+    "NodeImportance": 0.000512841,
+    "EdgeImportance": 0.0019181761
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 7,
+    "NodeImportance": 0.0005132238,
+    "EdgeImportance": 0.001924314
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 7,
+    "NodeImportance": 0.0005138084,
+    "EdgeImportance": 0.001920438
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 7,
+    "NodeImportance": 0.0005131703,
+    "EdgeImportance": 0.0019178288
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 7,
+    "NodeImportance": 0.0005141021,
+    "EdgeImportance": 0.001921496
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 7,
+    "NodeImportance": 0.0005124816,
+    "EdgeImportance": 0.001918068
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0005335724,
+    "EdgeImportance": 0.0019489688
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0005365103,
+    "EdgeImportance": 0.0019505761
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.0005384969,
+    "EdgeImportance": 0.0019562493
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.0005376808,
+    "EdgeImportance": 0.0019547569
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0005369744,
+    "EdgeImportance": 0.0019524965
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0005373425,
+    "EdgeImportance": 0.0019527352
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0005371465,
+    "EdgeImportance": 0.0019515918
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0005126488,
+    "EdgeImportance": 0.0019181916
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0005137351,
+    "EdgeImportance": 0.0019202677
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.0005132249,
+    "EdgeImportance": 0.0019258165
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.0005132053,
+    "EdgeImportance": 0.0019189304
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0005122317,
+    "EdgeImportance": 0.0019144592
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0005140404,
+    "EdgeImportance": 0.0019217053
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0005129092,
+    "EdgeImportance": 0.0019179907
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0005247332,
+    "EdgeImportance": 0.0019443926
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0005322347,
+    "EdgeImportance": 0.0019572606
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.0005371705,
+    "EdgeImportance": 0.0019684817
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.000526884,
+    "EdgeImportance": 0.0019509691
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0005454751,
+    "EdgeImportance": 0.0019801086
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0005353182,
+    "EdgeImportance": 0.001960383
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0005271642,
+    "EdgeImportance": 0.0019473738
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0093531461,
+    "EdgeImportance": 0.0659937989
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0093739213,
+    "EdgeImportance": 0.0659986429
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.0093503936,
+    "EdgeImportance": 0.0659975114
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.0093676389,
+    "EdgeImportance": 0.065998388
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0093544189,
+    "EdgeImportance": 0.0659885677
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0093989808,
+    "EdgeImportance": 0.0660492431
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0093526591,
+    "EdgeImportance": 0.0659836764
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0003583529,
+    "EdgeImportance": 0.0013984456
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0003587366,
+    "EdgeImportance": 0.0013978133
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.0005106361,
+    "EdgeImportance": 0.0019328239
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.0005077492,
+    "EdgeImportance": 0.001895962
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0003583542,
+    "EdgeImportance": 0.0014055226
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0003455484,
+    "EdgeImportance": 0.0013267801
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0002955845,
+    "EdgeImportance": 0.0011164001
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 8,
+    "NodeImportance": 0.0005136985,
+    "EdgeImportance": 0.0019214149
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 8,
+    "NodeImportance": 0.0005145622,
+    "EdgeImportance": 0.0019207159
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 8,
+    "NodeImportance": 0.000513083,
+    "EdgeImportance": 0.0019247664
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 8,
+    "NodeImportance": 0.0005141653,
+    "EdgeImportance": 0.0019214302
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 8,
+    "NodeImportance": 0.0005125179,
+    "EdgeImportance": 0.0019176488
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 8,
+    "NodeImportance": 0.0005131174,
+    "EdgeImportance": 0.0019188836
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 8,
+    "NodeImportance": 0.0005148182,
+    "EdgeImportance": 0.0019233984
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0005372404,
+    "EdgeImportance": 0.0019518484
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0005371978,
+    "EdgeImportance": 0.0019524221
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.0005393303,
+    "EdgeImportance": 0.0019570298
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0005396793,
+    "EdgeImportance": 0.0019560914
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0005371626,
+    "EdgeImportance": 0.0019519701
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.0005369814,
+    "EdgeImportance": 0.001950812
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.0005355121,
+    "EdgeImportance": 0.0019506571
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0005139208,
+    "EdgeImportance": 0.0019209713
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0005132704,
+    "EdgeImportance": 0.0019196691
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.000512912,
+    "EdgeImportance": 0.0019230742
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0005140873,
+    "EdgeImportance": 0.0019214513
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0005130924,
+    "EdgeImportance": 0.0019199534
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.0005124591,
+    "EdgeImportance": 0.0019193932
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.000513607,
+    "EdgeImportance": 0.0019208494
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0005382037,
+    "EdgeImportance": 0.0019655896
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0005288378,
+    "EdgeImportance": 0.0019569547
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.0005375719,
+    "EdgeImportance": 0.0019635368
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0005434062,
+    "EdgeImportance": 0.0019733655
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0005306138,
+    "EdgeImportance": 0.0019481528
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.0005424192,
+    "EdgeImportance": 0.0019693841
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.000544989,
+    "EdgeImportance": 0.0019798938
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0093674548,
+    "EdgeImportance": 0.0660048645
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0093436471,
+    "EdgeImportance": 0.0659739604
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.009341148,
+    "EdgeImportance": 0.0660366825
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0093651564,
+    "EdgeImportance": 0.0660146042
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0093510672,
+    "EdgeImportance": 0.0659821871
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.009354209,
+    "EdgeImportance": 0.0659962705
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.0093577791,
+    "EdgeImportance": 0.0659954203
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0003700489,
+    "EdgeImportance": 0.0014423119
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0004004093,
+    "EdgeImportance": 0.0015736929
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.0005005169,
+    "EdgeImportance": 0.0018869437
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0003599012,
+    "EdgeImportance": 0.0014200507
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0003448154,
+    "EdgeImportance": 0.0013186851
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.0004065491,
+    "EdgeImportance": 0.0015939813
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.0003488824,
+    "EdgeImportance": 0.001323004
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Seed": 9,
+    "NodeImportance": 0.0005123587,
+    "EdgeImportance": 0.0019156401
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Seed": 9,
+    "NodeImportance": 0.0005142571,
+    "EdgeImportance": 0.0019217076
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Seed": 9,
+    "NodeImportance": 0.000513439,
+    "EdgeImportance": 0.0019250366
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Seed": 9,
+    "NodeImportance": 0.0005129707,
+    "EdgeImportance": 0.0019180685
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Seed": 9,
+    "NodeImportance": 0.0005134336,
+    "EdgeImportance": 0.0019196862
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Seed": 9,
+    "NodeImportance": 0.0005118933,
+    "EdgeImportance": 0.001914503
+  },
+  {
+    "Dataset": "Pubmed",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Seed": 9,
+    "NodeImportance": 0.0005136523,
+    "EdgeImportance": 0.0019190946
+  }
+]

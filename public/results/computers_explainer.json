@@ -1,0 +1,674 @@
+[
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.970 \u00b1 0.046",
+    "Sparsity": "0.257 \u00b1 0.075",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.927 \u00b1 0.028",
+    "Sparsity": "0.258 \u00b1 0.073",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.970 \u00b1 0.044",
+    "Sparsity": "0.255 \u00b1 0.074",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.970 \u00b1 0.044",
+    "Sparsity": "0.255 \u00b1 0.070",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.968 \u00b1 0.048",
+    "Sparsity": "0.256 \u00b1 0.074",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.969 \u00b1 0.044",
+    "Sparsity": "0.257 \u00b1 0.074",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.919 \u00b1 0.072",
+    "Sparsity": "0.255 \u00b1 0.072",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.968 \u00b1 0.048",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "0.952 \u00b1 0.083",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.970 \u00b1 0.045",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.970 \u00b1 0.045",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.969 \u00b1 0.046",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.968 \u00b1 0.048",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.948 \u00b1 0.052",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.939 \u00b1 0.066",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.871 \u00b1 0.055",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.937 \u00b1 0.068",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.938 \u00b1 0.066",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.936 \u00b1 0.069",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.940 \u00b1 0.064",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.909 \u00b1 0.054",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.938 \u00b1 0.026",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.906 \u00b1 0.070",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.940 \u00b1 0.026",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.938 \u00b1 0.026",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.940 \u00b1 0.025",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.938 \u00b1 0.022",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.929 \u00b1 0.079",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.929 \u00b1 0.058",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.895 \u00b1 0.065",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.929 \u00b1 0.058",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.928 \u00b1 0.060",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.931 \u00b1 0.057",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.930 \u00b1 0.055",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.959 \u00b1 0.023",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.920 \u00b1 0.028",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.910 \u00b1 0.102",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.921 \u00b1 0.025",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.916 \u00b1 0.033",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.919 \u00b1 0.027",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.918 \u00b1 0.027",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.907 \u00b1 0.068",
+    "Sparsity": "0.986 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.946 \u00b1 0.066",
+    "Sparsity": "0.261 \u00b1 0.068",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.902 \u00b1 0.063",
+    "Sparsity": "0.258 \u00b1 0.066",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.943 \u00b1 0.071",
+    "Sparsity": "0.257 \u00b1 0.065",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.945 \u00b1 0.069",
+    "Sparsity": "0.257 \u00b1 0.065",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.946 \u00b1 0.068",
+    "Sparsity": "0.259 \u00b1 0.064",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.947 \u00b1 0.064",
+    "Sparsity": "0.258 \u00b1 0.065",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.977 \u00b1 0.031",
+    "Sparsity": "0.260 \u00b1 0.067",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.977 \u00b1 0.032",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "0.990 \u00b1 0.022",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.978 \u00b1 0.030",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.979 \u00b1 0.029",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.979 \u00b1 0.029",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.980 \u00b1 0.028",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.977 \u00b1 0.051",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.968 \u00b1 0.048",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.890 \u00b1 0.047",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.968 \u00b1 0.048",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.968 \u00b1 0.049",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.967 \u00b1 0.050",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.968 \u00b1 0.047",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.867 \u00b1 0.102",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.873 \u00b1 0.132",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.883 \u00b1 0.078",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.875 \u00b1 0.130",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.873 \u00b1 0.129",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.875 \u00b1 0.132",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.874 \u00b1 0.133",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.939 \u00b1 0.065",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.934 \u00b1 0.062",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.905 \u00b1 0.025",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.934 \u00b1 0.063",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.936 \u00b1 0.054",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.934 \u00b1 0.062",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.936 \u00b1 0.061",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.895 \u00b1 0.039",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.927 \u00b1 0.046",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.883 \u00b1 0.099",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.924 \u00b1 0.049",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.924 \u00b1 0.048",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.926 \u00b1 0.050",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.925 \u00b1 0.048",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Computers",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.968 \u00b1 0.047",
+    "Sparsity": "0.988 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.042"
+  }
+]

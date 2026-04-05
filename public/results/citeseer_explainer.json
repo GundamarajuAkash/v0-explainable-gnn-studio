@@ -1,0 +1,674 @@
+[
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.762 \u00b1 0.066",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.690 \u00b1 0.058",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.759 \u00b1 0.067",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.765 \u00b1 0.063",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.758 \u00b1 0.063",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.760 \u00b1 0.065",
+    "Sparsity": "0.973 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.814 \u00b1 0.081",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.981 \u00b1 0.043",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "0.919 \u00b1 0.066",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.980 \u00b1 0.045",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.980 \u00b1 0.044",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.980 \u00b1 0.044",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.980 \u00b1 0.044",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.918 \u00b1 0.069",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.789 \u00b1 0.069",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.632 \u00b1 0.072",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.790 \u00b1 0.061",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.792 \u00b1 0.067",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.792 \u00b1 0.065",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.787 \u00b1 0.063",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.809 \u00b1 0.027",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.830 \u00b1 0.045",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.951 \u00b1 0.049",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.831 \u00b1 0.045",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.828 \u00b1 0.046",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.831 \u00b1 0.042",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.829 \u00b1 0.045",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.852 \u00b1 0.071",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.672 \u00b1 0.097",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.590 \u00b1 0.097",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.671 \u00b1 0.100",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.669 \u00b1 0.091",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.669 \u00b1 0.094",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.669 \u00b1 0.098",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.710 \u00b1 0.040",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.569 \u00b1 0.067",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.696 \u00b1 0.095",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.569 \u00b1 0.071",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.573 \u00b1 0.066",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.565 \u00b1 0.065",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.570 \u00b1 0.071",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.648 \u00b1 0.070",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.770 \u00b1 0.031",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.741 \u00b1 0.040",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.769 \u00b1 0.028",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.768 \u00b1 0.031",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.772 \u00b1 0.027",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.771 \u00b1 0.026",
+    "Sparsity": "0.974 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.759 \u00b1 0.084",
+    "Sparsity": "0.974 \u00b1 0.001",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.958 \u00b1 0.043",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "0.950 \u00b1 0.050",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.959 \u00b1 0.045",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.960 \u00b1 0.041",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.960 \u00b1 0.042",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.960 \u00b1 0.043",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.903 \u00b1 0.061",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.787 \u00b1 0.124",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.790 \u00b1 0.064",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.791 \u00b1 0.117",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.787 \u00b1 0.120",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.790 \u00b1 0.120",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.791 \u00b1 0.120",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.781 \u00b1 0.049",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.900 \u00b1 0.073",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.890 \u00b1 0.065",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.901 \u00b1 0.071",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.901 \u00b1 0.072",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.900 \u00b1 0.067",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.898 \u00b1 0.072",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.830 \u00b1 0.130",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.649 \u00b1 0.069",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.636 \u00b1 0.172",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.645 \u00b1 0.072",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.649 \u00b1 0.072",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.652 \u00b1 0.074",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.649 \u00b1 0.074",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.569 \u00b1 0.119",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.622 \u00b1 0.153",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.702 \u00b1 0.134",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.621 \u00b1 0.148",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.621 \u00b1 0.151",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.623 \u00b1 0.152",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.619 \u00b1 0.151",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  },
+  {
+    "Dataset": "CiteSeer",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.701 \u00b1 0.132",
+    "Sparsity": "0.998 \u00b1 0.000",
+    "Coverage": "1.000 \u00b1 0.000"
+  }
+]

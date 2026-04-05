@@ -1,0 +1,62 @@
+version: "3.9"
+
+services:
+  # ── FastAPI Backend ────────────────────────────────────────────────────
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      - MOCK_MODE=false
+      - DATABASE_URL=postgresql://gnn:gnn@postgres:5432/gnn_studio
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/1
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - model-storage:/app/storage/models
+      - data-cache:/app/data
+
+  # ── Celery Worker ─────────────────────────────────────────────────────
+  worker:
+    build: .
+    command: celery -A workers.celery_worker.celery_app worker --loglevel=info --concurrency=2
+    env_file: .env
+    environment:
+      - MOCK_MODE=false
+      - DATABASE_URL=postgresql://gnn:gnn@postgres:5432/gnn_studio
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/1
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - model-storage:/app/storage/models
+      - data-cache:/app/data
+
+  # ── PostgreSQL ────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: gnn
+      POSTGRES_PASSWORD: gnn
+      POSTGRES_DB: gnn_studio
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  # ── Redis ─────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
+  model-storage:
+  data-cache:

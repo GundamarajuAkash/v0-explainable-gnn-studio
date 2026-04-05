@@ -1,0 +1,338 @@
+[
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"baseline",
+        "Fidelity":"0.891 \u00b1 0.046",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"focal",
+        "Fidelity":"0.902 \u00b1 0.058",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"nodeimport",
+        "Fidelity":"0.890 \u00b1 0.058",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"oversample",
+        "Fidelity":"0.918 \u00b1 0.058",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"svwng",
+        "Fidelity":"0.877 \u00b1 0.111",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"undersample",
+        "Fidelity":"0.895 \u00b1 0.054",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"ChebNet",
+        "Method":"weighted",
+        "Fidelity":"0.913 \u00b1 0.054",
+        "Sparsity":"0.753 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"baseline",
+        "Fidelity":"0.955 \u00b1 0.045",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"focal",
+        "Fidelity":"0.970 \u00b1 0.035",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"nodeimport",
+        "Fidelity":"0.960 \u00b1 0.046",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"oversample",
+        "Fidelity":"0.960 \u00b1 0.032",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"svwng",
+        "Fidelity":"0.954 \u00b1 0.045",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"undersample",
+        "Fidelity":"0.965 \u00b1 0.041",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GAT",
+        "Method":"weighted",
+        "Fidelity":"0.963 \u00b1 0.035",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"baseline",
+        "Fidelity":"0.929 \u00b1 0.042",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"focal",
+        "Fidelity":"0.955 \u00b1 0.037",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"nodeimport",
+        "Fidelity":"0.941 \u00b1 0.036",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"oversample",
+        "Fidelity":"0.927 \u00b1 0.034",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"svwng",
+        "Fidelity":"0.932 \u00b1 0.047",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"undersample",
+        "Fidelity":"0.946 \u00b1 0.043",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GCN",
+        "Method":"weighted",
+        "Fidelity":"0.944 \u00b1 0.044",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"baseline",
+        "Fidelity":"0.970 \u00b1 0.042",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"focal",
+        "Fidelity":"0.975 \u00b1 0.027",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"nodeimport",
+        "Fidelity":"0.985 \u00b1 0.024",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"oversample",
+        "Fidelity":"0.985 \u00b1 0.033",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"svwng",
+        "Fidelity":"0.976 \u00b1 0.034",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"undersample",
+        "Fidelity":"0.985 \u00b1 0.049",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GIN",
+        "Method":"weighted",
+        "Fidelity":"0.946 \u00b1 0.122",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"baseline",
+        "Fidelity":"0.944 \u00b1 0.046",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"focal",
+        "Fidelity":"0.934 \u00b1 0.041",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"nodeimport",
+        "Fidelity":"0.936 \u00b1 0.033",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"oversample",
+        "Fidelity":"0.959 \u00b1 0.040",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"svwng",
+        "Fidelity":"0.910 \u00b1 0.041",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"undersample",
+        "Fidelity":"0.920 \u00b1 0.035",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"GraphSAGE",
+        "Method":"weighted",
+        "Fidelity":"0.921 \u00b1 0.027",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"baseline",
+        "Fidelity":"0.926 \u00b1 0.035",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"focal",
+        "Fidelity":"0.945 \u00b1 0.055",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"nodeimport",
+        "Fidelity":"0.920 \u00b1 0.054",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"oversample",
+        "Fidelity":"0.939 \u00b1 0.063",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"svwng",
+        "Fidelity":"0.934 \u00b1 0.068",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"undersample",
+        "Fidelity":"0.916 \u00b1 0.041",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    },
+    {
+        "Dataset":"Cora",
+        "Model":"PinSAGE",
+        "Method":"weighted",
+        "Fidelity":"0.905 \u00b1 0.027",
+        "Sparsity":"0.980 \u00b1 0.000",
+        "Coverage":"1.000 \u00b1 0.000"
+    }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.976 \u00b1 0.039",
+    "Sparsity": "0.248 \u00b1 0.069",
+    "Coverage": "0.989 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.943 \u00b1 0.025",
+    "Sparsity": "0.255 \u00b1 0.063",
+    "Coverage": "0.969 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.951 \u00b1 0.040",
+    "Sparsity": "0.261 \u00b1 0.075",
+    "Coverage": "0.969 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.982 \u00b1 0.037",
+    "Sparsity": "0.267 \u00b1 0.074",
+    "Coverage": "0.974 \u00b1 0.024"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.986 \u00b1 0.046",
+    "Sparsity": "0.240 \u00b1 0.065",
+    "Coverage": "0.994 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.981 \u00b1 0.047",
+    "Sparsity": "0.258 \u00b1 0.085",
+    "Coverage": "0.975 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.932 \u00b1 0.075",
+    "Sparsity": "0.269 \u00b1 0.074",
+    "Coverage": "0.988 \u00b1 0.023"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.957 \u00b1 0.045",
+    "Sparsity": "0.969 \u00b1 0.005",
+    "Coverage": "0.964 \u00b1 0.025"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "0.957 \u00b1 0.080",
+    "Sparsity": "0.981 \u00b1 0.005",
+    "Coverage": "0.971 \u00b1 0.031"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.976 \u00b1 0.046",
+    "Sparsity": "0.973 \u00b1 0.005",
+    "Coverage": "0.967 \u00b1 0.026"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.990 \u00b1 0.047",
+    "Sparsity": "0.988 \u00b1 0.005",
+    "Coverage": "0.994 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.958 \u00b1 0.040",
+    "Sparsity": "0.979 \u00b1 0.005",
+    "Coverage": "0.968 \u00b1 0.031"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.983 \u00b1 0.045",
+    "Sparsity": "0.992 \u00b1 0.005",
+    "Coverage": "0.997 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.939 \u00b1 0.048",
+    "Sparsity": "0.988 \u00b1 0.005",
+    "Coverage": "0.983 \u00b1 0.030"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.935 \u00b1 0.060",
+    "Sparsity": "1.000 \u00b1 0.005",
+    "Coverage": "0.964 \u00b1 0.023"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.855 \u00b1 0.057",
+    "Sparsity": "0.998 \u00b1 0.005",
+    "Coverage": "0.963 \u00b1 0.026"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.957 \u00b1 0.069",
+    "Sparsity": "1.000 \u00b1 0.006",
+    "Coverage": "0.960 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.945 \u00b1 0.067",
+    "Sparsity": "0.977 \u00b1 0.005",
+    "Coverage": "0.964 \u00b1 0.026"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.934 \u00b1 0.078",
+    "Sparsity": "1.000 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.024"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.957 \u00b1 0.071",
+    "Sparsity": "0.978 \u00b1 0.005",
+    "Coverage": "0.984 \u00b1 0.024"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.920 \u00b1 0.055",
+    "Sparsity": "0.997 \u00b1 0.005",
+    "Coverage": "0.960 \u00b1 0.026"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.919 \u00b1 0.029",
+    "Sparsity": "1.000 \u00b1 0.005",
+    "Coverage": "0.972 \u00b1 0.023"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.921 \u00b1 0.079",
+    "Sparsity": "0.969 \u00b1 0.005",
+    "Coverage": "0.963 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.951 \u00b1 0.023",
+    "Sparsity": "0.985 \u00b1 0.005",
+    "Coverage": "0.971 \u00b1 0.030"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.935 \u00b1 0.024",
+    "Sparsity": "0.988 \u00b1 0.005",
+    "Coverage": "0.968 \u00b1 0.025"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.960 \u00b1 0.026",
+    "Sparsity": "0.984 \u00b1 0.005",
+    "Coverage": "0.965 \u00b1 0.025"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.932 \u00b1 0.023",
+    "Sparsity": "0.975 \u00b1 0.005",
+    "Coverage": "0.963 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.918 \u00b1 0.089",
+    "Sparsity": "1.000 \u00b1 0.004",
+    "Coverage": "0.970 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.918 \u00b1 0.052",
+    "Sparsity": "1.000 \u00b1 0.005",
+    "Coverage": "0.979 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.907 \u00b1 0.059",
+    "Sparsity": "0.970 \u00b1 0.005",
+    "Coverage": "0.977 \u00b1 0.027"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.938 \u00b1 0.061",
+    "Sparsity": "1.000 \u00b1 0.004",
+    "Coverage": "0.976 \u00b1 0.026"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.942 \u00b1 0.055",
+    "Sparsity": "0.974 \u00b1 0.005",
+    "Coverage": "0.977 \u00b1 0.025"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.921 \u00b1 0.064",
+    "Sparsity": "0.984 \u00b1 0.006",
+    "Coverage": "0.982 \u00b1 0.023"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.950 \u00b1 0.061",
+    "Sparsity": "1.000 \u00b1 0.006",
+    "Coverage": "0.994 \u00b1 0.024"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.958 \u00b1 0.021",
+    "Sparsity": "0.982 \u00b1 0.004",
+    "Coverage": "0.975 \u00b1 0.031"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.911 \u00b1 0.030",
+    "Sparsity": "0.984 \u00b1 0.005",
+    "Coverage": "0.998 \u00b1 0.031"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.912 \u00b1 0.109",
+    "Sparsity": "0.972 \u00b1 0.005",
+    "Coverage": "0.999 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.923 \u00b1 0.027",
+    "Sparsity": "0.968 \u00b1 0.005",
+    "Coverage": "0.980 \u00b1 0.030"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.902 \u00b1 0.038",
+    "Sparsity": "0.969 \u00b1 0.005",
+    "Coverage": "0.984 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.908 \u00b1 0.024",
+    "Sparsity": "1.000 \u00b1 0.005",
+    "Coverage": "0.984 \u00b1 0.028"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.915 \u00b1 0.028",
+    "Sparsity": "0.987 \u00b1 0.006",
+    "Coverage": "0.968 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.897 \u00b1 0.066",
+    "Sparsity": "0.993 \u00b1 0.005",
+    "Coverage": "0.973 \u00b1 0.029"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "baseline",
+    "Fidelity": "0.929 \u00b1 0.065",
+    "Sparsity": "0.281 \u00b1 0.078",
+    "Coverage": "0.923 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "focal",
+    "Fidelity": "0.893 \u00b1 0.071",
+    "Sparsity": "0.273 \u00b1 0.074",
+    "Coverage": "0.935 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "nodeimport",
+    "Fidelity": "0.956 \u00b1 0.075",
+    "Sparsity": "0.261 \u00b1 0.075",
+    "Coverage": "0.946 \u00b1 0.036"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "oversample",
+    "Fidelity": "0.958 \u00b1 0.065",
+    "Sparsity": "0.264 \u00b1 0.074",
+    "Coverage": "0.925 \u00b1 0.037"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "svwng",
+    "Fidelity": "0.930 \u00b1 0.069",
+    "Sparsity": "0.250 \u00b1 0.066",
+    "Coverage": "0.949 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "undersample",
+    "Fidelity": "0.952 \u00b1 0.059",
+    "Sparsity": "0.258 \u00b1 0.073",
+    "Coverage": "0.954 \u00b1 0.037"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "ChebNet",
+    "Method": "weighted",
+    "Fidelity": "0.974 \u00b1 0.029",
+    "Sparsity": "0.240 \u00b1 0.072",
+    "Coverage": "0.945 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "baseline",
+    "Fidelity": "0.987 \u00b1 0.032",
+    "Sparsity": "0.984 \u00b1 0.001",
+    "Coverage": "0.923 \u00b1 0.047"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "focal",
+    "Fidelity": "1.000 \u00b1 0.022",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.926 \u00b1 0.037"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "nodeimport",
+    "Fidelity": "0.970 \u00b1 0.034",
+    "Sparsity": "0.999 \u00b1 0.001",
+    "Coverage": "0.956 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "oversample",
+    "Fidelity": "0.969 \u00b1 0.026",
+    "Sparsity": "0.999 \u00b1 0.001",
+    "Coverage": "0.936 \u00b1 0.044"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "svwng",
+    "Fidelity": "0.965 \u00b1 0.033",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.952 \u00b1 0.047"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "undersample",
+    "Fidelity": "0.961 \u00b1 0.030",
+    "Sparsity": "0.981 \u00b1 0.001",
+    "Coverage": "0.952 \u00b1 0.047"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GAT",
+    "Method": "weighted",
+    "Fidelity": "0.989 \u00b1 0.047",
+    "Sparsity": "0.999 \u00b1 0.001",
+    "Coverage": "0.955 \u00b1 0.047"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "baseline",
+    "Fidelity": "0.957 \u00b1 0.053",
+    "Sparsity": "0.986 \u00b1 0.001",
+    "Coverage": "0.952 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "focal",
+    "Fidelity": "0.871 \u00b1 0.043",
+    "Sparsity": "0.980 \u00b1 0.001",
+    "Coverage": "0.959 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "nodeimport",
+    "Fidelity": "0.974 \u00b1 0.047",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.958 \u00b1 0.037"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "oversample",
+    "Fidelity": "0.987 \u00b1 0.044",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.924 \u00b1 0.041"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "svwng",
+    "Fidelity": "0.976 \u00b1 0.047",
+    "Sparsity": "0.991 \u00b1 0.001",
+    "Coverage": "0.935 \u00b1 0.043"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "undersample",
+    "Fidelity": "0.958 \u00b1 0.050",
+    "Sparsity": "0.968 \u00b1 0.001",
+    "Coverage": "0.942 \u00b1 0.045"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GCN",
+    "Method": "weighted",
+    "Fidelity": "0.877 \u00b1 0.107",
+    "Sparsity": "0.982 \u00b1 0.001",
+    "Coverage": "0.947 \u00b1 0.040"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "baseline",
+    "Fidelity": "0.866 \u00b1 0.146",
+    "Sparsity": "0.997 \u00b1 0.001",
+    "Coverage": "0.932 \u00b1 0.041"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "focal",
+    "Fidelity": "0.879 \u00b1 0.073",
+    "Sparsity": "0.973 \u00b1 0.001",
+    "Coverage": "0.958 \u00b1 0.044"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "nodeimport",
+    "Fidelity": "0.891 \u00b1 0.135",
+    "Sparsity": "0.980 \u00b1 0.001",
+    "Coverage": "0.920 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "oversample",
+    "Fidelity": "0.870 \u00b1 0.132",
+    "Sparsity": "0.994 \u00b1 0.001",
+    "Coverage": "0.938 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "svwng",
+    "Fidelity": "0.874 \u00b1 0.148",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.923 \u00b1 0.042"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "undersample",
+    "Fidelity": "0.879 \u00b1 0.126",
+    "Sparsity": "1.000 \u00b1 0.001",
+    "Coverage": "0.947 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GIN",
+    "Method": "weighted",
+    "Fidelity": "0.927 \u00b1 0.056",
+    "Sparsity": "0.978 \u00b1 0.001",
+    "Coverage": "0.954 \u00b1 0.037"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.931 \u00b1 0.064",
+    "Sparsity": "0.976 \u00b1 0.001",
+    "Coverage": "0.940 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "focal",
+    "Fidelity": "0.911 \u00b1 0.021",
+    "Sparsity": "0.997 \u00b1 0.001",
+    "Coverage": "0.924 \u00b1 0.041"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.921 \u00b1 0.072",
+    "Sparsity": "0.989 \u00b1 0.001",
+    "Coverage": "0.930 \u00b1 0.046"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.934 \u00b1 0.059",
+    "Sparsity": "0.995 \u00b1 0.001",
+    "Coverage": "0.944 \u00b1 0.048"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.950 \u00b1 0.064",
+    "Sparsity": "0.997 \u00b1 0.001",
+    "Coverage": "0.953 \u00b1 0.043"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.952 \u00b1 0.065",
+    "Sparsity": "0.987 \u00b1 0.001",
+    "Coverage": "0.930 \u00b1 0.044"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "GraphSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.906 \u00b1 0.039",
+    "Sparsity": "0.993 \u00b1 0.001",
+    "Coverage": "0.923 \u00b1 0.039"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "baseline",
+    "Fidelity": "0.918 \u00b1 0.044",
+    "Sparsity": "0.989 \u00b1 0.001",
+    "Coverage": "0.929 \u00b1 0.044"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "focal",
+    "Fidelity": "0.891 \u00b1 0.086",
+    "Sparsity": "0.984 \u00b1 0.001",
+    "Coverage": "0.937 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "nodeimport",
+    "Fidelity": "0.921 \u00b1 0.055",
+    "Sparsity": "0.991 \u00b1 0.001",
+    "Coverage": "0.954 \u00b1 0.045"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "oversample",
+    "Fidelity": "0.919 \u00b1 0.041",
+    "Sparsity": "0.982 \u00b1 0.001",
+    "Coverage": "0.954 \u00b1 0.048"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "svwng",
+    "Fidelity": "0.923 \u00b1 0.054",
+    "Sparsity": "0.990 \u00b1 0.001",
+    "Coverage": "0.929 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "undersample",
+    "Fidelity": "0.922 \u00b1 0.041",
+    "Sparsity": "0.981 \u00b1 0.001",
+    "Coverage": "0.936 \u00b1 0.038"
+  },
+  {
+    "Dataset": "Amazon-Photos",
+    "Model": "PinSAGE",
+    "Method": "weighted",
+    "Fidelity": "0.967 \u00b1 0.042",
+    "Sparsity": "0.993 \u00b1 0.001",
+    "Coverage": "0.936 \u00b1 0.043"
+  }
+]

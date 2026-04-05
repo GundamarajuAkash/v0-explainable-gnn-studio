@@ -1,0 +1,156 @@
+[
+  {
+    "dataset": "cora",
+    "num_nodes": 2708,
+    "num_edges": 10556,
+    "num_features": 1433,
+    "num_classes": 7,
+    "density": 0.0014399999126942077,
+    "major_class": 3,
+    "minor_class": 6,
+    "class_distribution": {
+      "0": 351,
+      "1": 217,
+      "2": 418,
+      "3": 818,
+      "4": 426,
+      "5": 298,
+      "6": 180
+    },
+    "top_10_features": [
+      19,
+      774,
+      814,
+      1132,
+      1005,
+      485,
+      1263,
+      1209,
+      1177,
+      763
+    ]
+  },
+  {
+    "dataset": "citeseer",
+    "num_nodes": 3327,
+    "num_edges": 9104,
+    "num_features": 3703,
+    "num_classes": 6,
+    "density": 0.0008227297529768376,
+    "major_class": 3,
+    "minor_class": 0,
+    "class_distribution": {
+      "0": 264,
+      "1": 590,
+      "2": 668,
+      "3": 701,
+      "4": 596,
+      "5": 508
+    },
+    "top_10_features": [
+      731,
+      729,
+      2641,
+      2786,
+      1613,
+      168,
+      1797,
+      1984,
+      2298,
+      2718
+    ]
+  },
+  {
+    "dataset": "pubmed",
+    "num_nodes": 19717,
+    "num_edges": 88648,
+    "num_features": 500,
+    "num_classes": 3,
+    "density": 0.00022803908825811382,
+    "major_class": 2,
+    "minor_class": 0,
+    "class_distribution": {
+      "0": 4103,
+      "1": 7739,
+      "2": 7875
+    },
+    "top_10_features": [
+      0,
+      449,
+      285,
+      8,
+      89,
+      444,
+      184,
+      32,
+      286,
+      477
+    ]
+  },
+  {
+    "dataset": "computers",
+    "num_nodes": 13752,
+    "num_edges": 491722,
+    "num_features": 767,
+    "num_classes": 10,
+    "density": 0.0026002762758509414,
+    "major_class": 4,
+    "minor_class": 9,
+    "class_distribution": {
+      "0": 436,
+      "1": 2142,
+      "2": 1414,
+      "3": 542,
+      "4": 5158,
+      "5": 308,
+      "6": 487,
+      "7": 818,
+      "8": 2156,
+      "9": 291
+    },
+    "top_10_features": [
+      88,
+      481,
+      308,
+      732,
+      417,
+      722,
+      552,
+      10,
+      361,
+      608
+    ]
+  },
+  {
+    "dataset": "photo",
+    "num_nodes": 7650,
+    "num_edges": 238162,
+    "num_features": 745,
+    "num_classes": 8,
+    "density": 0.004070112116838717,
+    "major_class": 6,
+    "minor_class": 7,
+    "class_distribution": {
+      "0": 369,
+      "1": 1686,
+      "2": 703,
+      "3": 915,
+      "4": 882,
+      "5": 823,
+      "6": 1941,
+      "7": 331
+    },
+    "top_10_features": [
+      55,
+      244,
+      416,
+      351,
+      90,
+      483,
+      215,
+      89,
+      690,
+      744
+    ]
+  }
+]
