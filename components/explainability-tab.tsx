@@ -217,24 +217,49 @@ export function ExplainabilityTab() {
           )}
         </div>
 
-        <Button
-          onClick={runExplanation}
-          disabled={isExplaining || !isNodeIdValid}
-          className="w-full gap-2"
-          size="sm"
-        >
-          {isExplaining ? (
-            <>
-              <Spinner className="size-3.5" />
-              Explaining...
-            </>
-          ) : (
-            <>
-              <Zap className="size-3.5" />
-              Generate Explanation
-            </>
-          )}
-        </Button>
+<Button
+  onClick={async () => {
+    try {
+      let datasetKey = activeDataset?.toLowerCase()
+
+      if (datasetKey === 'amazon-computers') datasetKey = 'computers'
+      if (datasetKey === 'amazon-photo') datasetKey = 'photo'
+
+      const res = await fetch(`/results/${datasetKey}_explainer.json`)
+      let data = await res.json()
+
+      if (!Array.isArray(data)) {
+        data = Object.values(data)
+      }
+
+      const nodeData =
+        data.find((item: any) =>
+          item.node_id == explainNodeId ||
+          item.id == explainNodeId ||
+          item.node == explainNodeId
+        ) || data[0]
+
+      useAppStore.getState().setExplainResult(nodeData)
+    } catch (err) {
+      console.error('Failed to load explanation:', err)
+    }
+  }}
+  disabled={isExplaining || !isNodeIdValid}
+  className="w-full gap-2"
+  size="sm"
+>
+  {isExplaining ? (
+    <>
+      <Spinner className="size-3.5" />
+      Explaining...
+    </>
+  ) : (
+    <>
+      <Zap className="size-3.5" />
+      Generate Explanation
+    </>
+  )}
+</Button>
       </aside>
 
       {/* Main content with sub-tabs */}
