@@ -232,12 +232,24 @@ export function ExplainabilityTab() {
         data = Object.values(data)
       }
 
-      const nodeData =
-        data.find((item: any) =>
-          item.node_id == explainNodeId ||
-          item.id == explainNodeId ||
-          item.node == explainNodeId
-        ) || data[0]
+let nodeData = null
+
+if (Array.isArray(data)) {
+  nodeData =
+    data.find((item: any) =>
+      item.node_id == explainNodeId ||
+      item.id == explainNodeId ||
+      item.node == explainNodeId
+    ) || data[0]
+} else if (typeof data === 'object') {
+  nodeData =
+    data[explainNodeId] ||
+    Object.values(data)[0]
+}
+
+console.log("NODE DATA:", nodeData)
+
+useAppStore.getState().setExplainResult(nodeData)
 
       useAppStore.getState().setExplainResult(nodeData)
     } catch (err) {
