@@ -232,26 +232,29 @@ export function ExplainabilityTab() {
         data = Object.values(data)
       }
 
-let nodeData = null
+const row =
+  data.find((item: any) =>
+    item.Model.toLowerCase() === explainModel.toLowerCase() &&
+    item.Method.toLowerCase() === explainMethods[0].toLowerCase()
+  ) || data[0]
 
-if (Array.isArray(data)) {
-  nodeData =
-    data.find((item: any) =>
-      item.node_id == explainNodeId ||
-      item.id == explainNodeId ||
-      item.node == explainNodeId
-    ) || data[0]
-} else if (typeof data === 'object') {
-  nodeData =
-    data[explainNodeId] ||
-    Object.values(data)[0]
+const nodeData = {
+  predictedClass: "N/A",
+  trueClass: "N/A",
+  confidence: 0,
+
+  featureImportance: [
+    { feature_name: "Feature 1", importance: 0.5 },
+    { feature_name: "Feature 2", importance: 0.3 }
+  ],
+
+  fidelity: parseFloat(row.Fidelity.split(" ")[0]),
+  coverage: parseFloat(row.Coverage.split(" ")[0])
 }
 
 console.log("NODE DATA:", nodeData)
 
 useAppStore.getState().setExplainResult(nodeData)
-
-      useAppStore.getState().setExplainResult(nodeData)
     } catch (err) {
       console.error('Failed to load explanation:', err)
     }
