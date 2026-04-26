@@ -111,9 +111,16 @@ export async function runExplain(payload: {
     body: JSON.stringify(payload),
   })
   
-  // Handle both direct response and wrapped APIResponse format
-  if (response.data) {
-    return response.data
+  // Extract explanation from response wrapper
+  if (response.explanation) {
+    return {
+      ...response.explanation,
+      fidelity: response.fidelity ?? 0,
+      coverage: response.coverage ?? 0,
+    }
   }
+  
+  // Fallback: return response as-is
   return response
 }
+
