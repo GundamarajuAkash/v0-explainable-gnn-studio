@@ -218,47 +218,7 @@ export function ExplainabilityTab() {
         </div>
 
 <Button
-  onClick={async () => {
-    try {
-      let datasetKey = activeDataset?.toLowerCase()
-
-      if (datasetKey === 'amazon-computers') datasetKey = 'computers'
-      if (datasetKey === 'amazon-photo') datasetKey = 'photo'
-
-      const res = await fetch(`/results/${datasetKey}_explainer.json`)
-      let data = await res.json()
-
-      if (!Array.isArray(data)) {
-        data = Object.values(data)
-      }
-
-const row =
-  data.find((item: any) =>
-    item.Model.toLowerCase() === explainModel.toLowerCase() &&
-    item.Method.toLowerCase() === explainMethods[0].toLowerCase()
-  ) || data[0]
-
-const nodeData = {
-  predictedClass: "N/A",
-  trueClass: "N/A",
-  confidence: 0,
-
-  featureImportance: [
-    { feature_name: "Feature 1", importance: 0.5 },
-    { feature_name: "Feature 2", importance: 0.3 }
-  ],
-
-  fidelity: parseFloat(row.Fidelity.split(" ")[0]),
-  coverage: parseFloat(row.Coverage.split(" ")[0])
-}
-
-console.log("NODE DATA:", nodeData)
-
-useAppStore.getState().setExplainResult(nodeData)
-    } catch (err) {
-      console.error('Failed to load explanation:', err)
-    }
-  }}
+  onClick={() => runExplanation()}
   disabled={isExplaining || !isNodeIdValid}
   className="w-full gap-2"
   size="sm"
