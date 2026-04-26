@@ -406,6 +406,12 @@ export const useAppStore = create<AppState>((set, get) => ({
   runExplanation: () => {
     const state = get()
     set({ isExplaining: true })
+    console.log('[v0] runExplanation called with:', {
+      dataset: state.activeDatasetId,
+      model: state.explainModel,
+      method: state.explainMethods[0],
+      nodeId: state.explainNodeId,
+    })
 
     ;(async () => {
       try {
@@ -415,14 +421,17 @@ export const useAppStore = create<AppState>((set, get) => ({
           method: state.explainMethods[0] ?? 'baseline',
           node_id: state.explainNodeId,
         })
+        console.log('[v0] Received explanation result:', result)
         const mapped = mapAPIExplainResult(
           result,
           state.activeDataset,
           state.explainModel,
           state.explainMethods[0] ?? 'baseline'
         )
+        console.log('[v0] Mapped explanation result:', mapped)
         set({ explainResult: mapped, isExplaining: false })
-      } catch {
+      } catch (err) {
+        console.error('[v0] Error generating explanation:', err)
         // No explanation data available
         set({ explainResult: null, isExplaining: false })
       }

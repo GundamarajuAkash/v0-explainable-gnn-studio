@@ -105,9 +105,15 @@ export async function runExplain(payload: {
   method: string
   node_id: number
 }): Promise<APIExplainResult> {
-  return request<APIExplainResult>('/api/explain', {
+  const response = await request<any>('/api/explain', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
   })
+  
+  // Handle both direct response and wrapped APIResponse format
+  if (response.data) {
+    return response.data
+  }
+  return response
 }

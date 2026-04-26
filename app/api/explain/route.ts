@@ -1,57 +1,33 @@
 import { NextRequest, NextResponse } from "next/server"
-import fs from "fs"
-import path from "path"
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
 
-    const dataset = body.dataset_id || "cora"
-    const nodeId = body.node_id
+    const backendUrl = process.env.BACKEND_URL || "http://localhost:8000"
+    console.log("[v0] Proxying to backend:", backendUrl)
 
-    let datasetKey = dataset.toLowerCase()
-
-    // Fix dataset naming mismatch
-    if (datasetKey === "amazon-computers") datasetKey = "computers"
-    if (datasetKey === "amazon-photo") datasetKey = "photo"
-
-    const filePath = path.join(
-      process.cwd(),
-      "public",
-      "results",
-      `${datasetKey}_explainer.json`
-    )
-
-    let rawData = JSON.parse(fs.readFileSync(filePath, "utf-8"))
-
-    // Handle object vs array
-    if (!Array.isArray(rawData)) {
-      rawData = Object.values(rawData)
-    }
-
-    // Node-level filtering
-    if (nodeId !== undefined) {
-      const nodeData =
-        rawData.find((item: any) =>
-          item.node_id == nodeId ||
-          item.id == nodeId ||
-          item.node == nodeId
-        ) || rawData[0] // fallback
-
-      return NextResponse.json({
-        status: "success",
-        data: nodeData
-      })
-    }
-
-    return NextResponse.json({
-      status: "success",
-      data: rawData
+    const response = await fetch(`${backendUrl}/api/explain`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
     })
 
+    if (!response.ok) {
+      const error = await response.text()
+      console.error("[v0] Backend error:", response.status, error)
+      return NextResponse.json(
+        { status: "error", message: `Backend returned ${response.status}` },
+        { status: response.status }
+      )
+    }
+
+    const data = await response.json()
+    return NextResponse.json(data)
   } catch (error) {
+    console.error("[v0] Explain API error:", error)
     return NextResponse.json(
-      { status: "error", message: "Failed to load JSON data" },
+      { status: "error", message: "Failed to generate explanation" },
       { status: 500 }
     )
   }
