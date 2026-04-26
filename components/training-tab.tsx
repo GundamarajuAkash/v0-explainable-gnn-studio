@@ -15,7 +15,6 @@ import { ResultsTable } from './results-table'
 import { ComparisonBarChart } from './comparison-bar-chart'
 import { PerClassMetricsTable } from './per-class-metrics-table'
 import { MajorityMinorityComparison } from './majority-minority-comparison'
-import { TrainingCurvesPanel } from './training-curves-panel'
 import { MethodRadarChart } from './method-radar-chart'
 import { ImbalancePerformanceChart } from './imbalance-performance-chart'
 
@@ -173,7 +172,6 @@ export function TrainingTab() {
 
       {/* Main content */}
       <div className="flex-1 min-w-0 flex flex-col gap-5">
-        <TrainingCurvesPanel />
         <ResultsTable />
         <ComparisonBarChart />
         <MethodRadarChart />
