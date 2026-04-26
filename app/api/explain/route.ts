@@ -8,20 +8,23 @@ export async function POST(req: NextRequest) {
     const body = await req.json()
     const { dataset_id, model, method, node_id } = body
 
-    console.log("[v0] EXPLAIN REQUEST")
-    console.log("[v0] DATASET:", dataset_id)
-    console.log("[v0] INPUT:", { model, method, node_id })
+    // Normalize dataset_id (strip "pyg-" prefix)
+    const normalizedDataset = (dataset_id || "").replace(/^pyg-/i, "")
+
+    console.log("[v0] EXPLAIN REQUEST - dataset:", dataset_id, "-> normalized:", normalizedDataset)
+    console.log("[v0] INPUT - model:", model, "method:", method, "node_id:", node_id)
 
     // Fetch explainer results from the endpoint
     const response = await fetch(
-      `${req.nextUrl.origin}/api/explainer/${encodeURIComponent(dataset_id || "")}`,
+      `${req.nextUrl.origin}/api/explainer/${encodeURIComponent(normalizedDataset)}`,
       { method: "GET" }
     )
 
     if (!response.ok) {
-      console.error("[v0] Failed to fetch explainer results:", response.status)
+      const errText = await response.text()
+      console.error("[v0] Failed to fetch explainer - status:", response.status, "body:", errText)
       return NextResponse.json(
-        { error: "Failed to fetch explanation data" },
+        { error: "Failed to fetch explanation data", status: response.status },
         { status: response.status }
       )
     }
@@ -29,9 +32,9 @@ export async function POST(req: NextRequest) {
     const data = await response.json()
     const rows = Array.isArray(data) ? data : Object.values(data)
 
-    console.log("[v0] ROWS:", rows.length)
+    console.log("[v0] Loaded", rows.length, "explainer rows")
     if (rows.length > 0) {
-      console.log("[v0] SAMPLE:", rows[0])
+      console.log("[v0] Sample row:", JSON.stringify(rows[0]).substring(0, 100))
     }
 
     // Match row by model and method
@@ -41,14 +44,17 @@ export async function POST(req: NextRequest) {
         norm(row.Method) === norm(method)
     )
 
-    console.log("[v0] MATCH:", match ? "found" : "not found")
-
     if (!match) {
+      console.log("[v0] No match found for model:", model, "method:", method)
+      console.log("[v0] Available models:", [...new Set(rows.map((r: any) => r.Model))].join(", "))
+      console.log("[v0] Available methods:", [...new Set(rows.map((r: any) => r.Method))].join(", "))
       return NextResponse.json(
-        { error: "No explanation found", inputs: { model, method, node_id } },
+        { error: "No explanation found for given inputs" },
         { status: 404 }
       )
     }
+
+    console.log("[v0] Found matching row")
 
     // Parse metric values (handle "X.XX ± Y.YY" format)
     const parseValue = (val: any): number => {
@@ -79,14 +85,15 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    console.log("[v0] RETURNING:", explainResult)
+    console.log("[v0] RETURNING fidelity:", fidelity, "coverage:", coverage)
     return NextResponse.json(explainResult)
   } catch (error) {
     console.error("[v0] Explain API error:", error)
     return NextResponse.json(
-      { error: "Failed to generate explanation" },
+      { error: "Failed to generate explanation", details: String(error) },
       { status: 500 }
     )
   }
 }
+
 

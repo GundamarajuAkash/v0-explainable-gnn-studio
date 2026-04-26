@@ -4,7 +4,7 @@ import path from 'path'
 
 // Map dataset names to file names (lowercase, handle variations)
 function normalizeDatasetName(dataset: string): string | null {
-  const lower = dataset.toLowerCase().replace(/\s+/g, '-')
+  const lower = dataset.toLowerCase().replace(/\s+/g, '-').replace(/^pyg-/, '') // Remove "pyg-" prefix
   
   // Handle various input formats
   const mappings: Record<string, string> = {
@@ -31,6 +31,8 @@ export async function GET(
   try {
     const { dataset } = await params
     const normalizedName = normalizeDatasetName(dataset)
+    
+    console.log('[v0] Explainer request - dataset:', dataset, '-> normalized:', normalizedName)
     
     if (!normalizedName) {
       console.log('[v0] Unknown dataset:', dataset)
@@ -64,3 +66,4 @@ export async function GET(
     )
   }
 }
+
