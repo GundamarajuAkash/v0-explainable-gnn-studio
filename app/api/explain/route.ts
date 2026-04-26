@@ -3,7 +3,7 @@ import path from "path"
 import fs from "fs/promises"
 
 // Normalize string values
-const norm = (v: any): string => String(v).toLowerCase().trim()
+const norm = (v: any): string => String(v || "").toLowerCase().trim()
 
 // Map dataset name to JSON file
 const fileMap: Record<string, string> = {
@@ -41,24 +41,34 @@ export async function POST(req: NextRequest) {
 
     const rows = Array.isArray(data) ? data : Object.values(data)
     console.log("[v0] ROWS:", rows.length)
+    
+    // Log actual structure
+    if (rows.length > 0) {
+      console.log("[v0] SAMPLE ROW:", JSON.stringify(rows[0]))
+      console.log("[v0] ALL KEYS:", Object.keys(rows[0]))
+    }
 
     // Normalize inputs
     const inputModel = norm(model)
     const inputMethod = norm(method)
     const inputNode = Number(node_id)
 
-    // Match row by model and method
+    console.log("[v0] INPUT NORMALIZED:", { inputModel, inputMethod, inputNode })
+
+    // Match row by model and method with fallbacks for both capitalized and lowercase
     const match = rows.find(
       (row: any) =>
-        norm(row.Model) === inputModel &&
-        norm(row.Method) === inputMethod
+        norm(row.Model ?? row.model) === inputModel &&
+        norm(row.Method ?? row.method) === inputMethod
     )
 
     console.log("[v0] MATCH:", match ? "FOUND" : "NOT FOUND")
 
     if (!match) {
-      const availableModels = [...new Set(rows.map((r: any) => r.Model))]
-      const availableMethods = [...new Set(rows.map((r: any) => r.Method))]
+      const availableModels = [...new Set(rows.map((r: any) => r.Model ?? r.model))]
+      const availableMethods = [...new Set(rows.map((r: any) => r.Method ?? r.method))]
+      console.log("[v0] AVAILABLE MODELS:", availableModels)
+      console.log("[v0] AVAILABLE METHODS:", availableMethods)
       return NextResponse.json(
         {
           error: "No match found",
@@ -80,9 +90,18 @@ export async function POST(req: NextRequest) {
       return 0
     }
 
-    // Extract fidelity and coverage
-    const fidelity = parseValue(match.fidelity ?? match.fidelity_score ?? match.Fidelity ?? 0)
-    const coverage = parseValue(match.coverage ?? match.coverage_score ?? match.Coverage ?? 0)
+    // Extract fidelity and coverage with proper fallbacks for capitalized keys
+    const fidelity = parseValue(
+      match.Fidelity ?? match.fidelity ?? match.fidelity_score ?? 0
+    )
+    const coverage = parseValue(
+      match.Coverage ?? match.coverage ?? match.coverage_score ?? 0
+    )
+
+    console.log("[v0] FIDELITY RAW:", match.Fidelity ?? match.fidelity)
+    console.log("[v0] COVERAGE RAW:", match.Coverage ?? match.coverage)
+    console.log("[v0] FIDELITY PARSED:", fidelity)
+    console.log("[v0] COVERAGE PARSED:", coverage)
 
     const explainResult = {
       fidelity,
@@ -90,7 +109,7 @@ export async function POST(req: NextRequest) {
       explanation: match,
     }
 
-    console.log("[v0] RETURNING fidelity:", fidelity, "coverage:", coverage)
+    console.log("[v0] RETURNING:", explainResult)
     return NextResponse.json(explainResult)
   } catch (error) {
     console.error("[v0] Explain API error:", error)
